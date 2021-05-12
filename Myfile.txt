@@ -1,3 +1,5 @@
 
-hello this is first line
+hello this is git first line by someOne
+
+hey git wt are you doing
 
