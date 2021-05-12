@@ -1,5 +1,8 @@
 
-hello this is git first line by someOne
+hello this is Git first line by someOne
 
-hey git wt are you doing
+Hey Git wt are you doing
+ 
+this is third line
+
 
