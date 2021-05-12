@@ -3,6 +3,6 @@ hello this is Git first line by someOne
 
 Hey Git wt are you doing
  
-this is third line
+this is 3rd line
 
 
