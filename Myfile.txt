@@ -3,7 +3,7 @@ hello this is Git first line by someOne
 
 Hey Git wt are you doing
  
-this is 3rd line
-I am just now learn about git
 
+I am just now learn about git
+ this is last line
 
