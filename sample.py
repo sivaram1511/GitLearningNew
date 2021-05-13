@@ -1,22 +1,13 @@
-print("Hello python")
-s1=input("Enter main String")
-s2=input("Enter sub String")
-flag=False
-pos=-1
-n=len(s1)
-while True:
-    pos=s1.find(s2,pos+1,n)
-    if pos==-1:
-        break
-    print("found the substring",pos)
-    flag=True
-if flag==False:
-    print("not Found it")
-print(s1.count(s2))    
-
-
-
-
+s=input("Enter some String")
+l=s.split()
+n=len(l)
+l1=[]
+i=0
+while i<n:
+    l1.append(l[i][::-1])
+    i=i+1
+output=''.join(l1)    
+    
 
 
 
