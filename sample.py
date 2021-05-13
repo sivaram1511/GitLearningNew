@@ -1,3 +1,12 @@
 s=input("Enter some String")
-print(s[0::2])
-print(s[1::2])
+l=len(s)
+i=0
+while i<l:
+    print(s[i],end=',')
+    i=i+2
+i=1
+while i<l:
+    print(s[i],end=',')
+    i=i+2
+    
+
