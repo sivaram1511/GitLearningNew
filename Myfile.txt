@@ -4,6 +4,7 @@ hello this is Git first line by someOne
 Hey Git wt are you doing
  
 
-I am just now learning About GIT
+I am just now learning About git
+I am starting today git desktop
  this is last line
 
