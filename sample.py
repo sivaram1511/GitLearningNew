@@ -6,7 +6,7 @@ while i<l:
     i=i+2
 i=1
 while i<l:
-    print(s[i],end=',')
+    print(s[i])
     i=i+2
     
 
