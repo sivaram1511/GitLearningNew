@@ -1,15 +1,16 @@
-s1=input("Enter some String")
-s2=input("Enter Second String")
-i,j=0,0
-output=''
-while i<len(s1)or j<len(s2):
-    if i<len(s1):
-        output=output+s1[i]
-        i=i+1
-    if j<len(s2):
-        output=output+s2[j]
-        j=j+1
-print(output)        
+s=input("Enter some String")
+s1=s2=output=''
+for x in s:
+    if x.isalpha():
+        s1=s1+x
+    else:
+        s2=s2+x
+for x in sorted(s1):
+    output=output+x
+for x in sorted(s2):
+    output=output+x
+print(output)    
+    
         
 
     
