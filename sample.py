@@ -1,15 +1,11 @@
 s=input("Enter some String")
-s1=s2=output=''
+
+l=[]
 for x in s:
-    if x.isalpha():
-        s1=s1+x
-    else:
-        s2=s2+x
-for x in sorted(s1):
-    output=output+x
-for x in sorted(s2):
-    output=output+x
-print(output)    
+    if x not in l:
+        l.append(x)
+output=''.join(l)
+print(output)
     
         
 
