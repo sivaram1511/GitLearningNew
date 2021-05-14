@@ -1,6 +1,6 @@
-t=10,20,30,40
-print(t)
-print(type(t))
+tt1=(10,20,30,90,76)
+print(tt1)
+print(id(tt1))
        
 
     
