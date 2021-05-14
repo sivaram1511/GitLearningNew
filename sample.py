@@ -1,14 +1,8 @@
-a="sivaram"
-b=[20,79,90]
-c=30
-d=40
-t=a,b,c,d
-print(t)
-p,q,r,s=t
-print("p=",p,"q=",q,"r=",r,"s=",s)
-
-
-
-       
-    
+t=eval(input("Enter Tuple of Numbers:"))
+l=len(t)
+sum=0
+for x in t:
+    sum=sum+x
+print("The sum of tuple is:" ,sum)
+print("The sum of avg is :",sum/l)
 
