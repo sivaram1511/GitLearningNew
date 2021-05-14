@@ -1,9 +1,14 @@
-x={10,20,30,40}
-y={30,40,50,60}
-print(x|y)
-print(x.intersection(y))# or (x&y)
-print(x.difference(y))#x-y,y-x elements present in x but not in y
-print(x.symmetric_difference(y))#x^y
+d1=dict({100:"siva",200:"venisha",400:"surendra",300:"nagaraju"})
+print(d1.keys())
+for x in d1.keys():
+    print(x)
+print(d1.values())
+for x in d1.values():
+    print(x)
+print(d1.items())
+for k,v in d1.items():
+    print(k,"---->",v)
+
 
 
 
