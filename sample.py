@@ -1,6 +1,12 @@
-s1=lambda a,b:a+b
-print(s1(4,9))
-print(s1(200,2500))
+def isEven(n):
+    if n%2==0:
+        return True
+    else:
+        return False
+l=[0,5,10,15,20,25,30]
+l1=list(filter(isEven,l))
+print(l1)
+
 
 
 
