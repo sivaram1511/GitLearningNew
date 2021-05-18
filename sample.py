@@ -1,15 +1,23 @@
-class Student:
+class Test:
+    x=10
     def __init__(self):
-        self.a=10
-        self.b=20
-        self.c=30
-    def m1(self):
-        self.d=50
-s=Student()
-s.m1()
-s.e=89
-print(s.__dict__)
+        Test.y=20
+
         
+    def m1(self):
+        Test.z=30
+    @classmethod
+    def m2(cls):
+        cls.p1=40
+        Test.p2=50
+    @staticmethod
+    def m3():
+        Test.q=60
+print(Test.__dict__)
+Test.f=70
+print(Test.__dict__)
+        
+       
     
         
 
