@@ -1,13 +1,12 @@
-
-from random import *
-list=["Sunny",76,"Bunny",89,"Chinny",90,"Vinny","Kunny"]
-for i in range(10):
-    #print(random())
-    #print(randint(1,100))
-    #print(uniform(1,10))
-    #print(randrange(10,100,2))
-    print(choice(list))
-
+class Student:
+    def __init__(self):
+        print("constructor excution")
+    def talk(self):
+        print("method excecution")
+s1=Student()
+s2=Student()
+s3=Student()
+s1.talk()
         
 
 
