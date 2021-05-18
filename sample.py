@@ -1,21 +1,26 @@
 class Test:
     x=10
     def __init__(self):
-        Test.y=20
+        print(self.x)
+        print(Test.x)
 
         
     def m1(self):
-        Test.z=30
+        print(self.x)
+        print(Test.x)
     @classmethod
     def m2(cls):
-        cls.p1=40
-        Test.p2=50
+        print(cls.x)
+        print(Test.x)
     @staticmethod
     def m3():
-        Test.q=60
-print(Test.__dict__)
-Test.f=70
-print(Test.__dict__)
+        print(Test.x)
+t=Test()
+t.m1()
+t.m2()
+t.m3()
+print(Test.x)
+print(t.x)
         
        
     
