@@ -1,17 +1,18 @@
+class Employee:
+    def __init__(self,eno,ename,esal):
+        self.eno=eno
+        self.ename=ename
+        self.esal=esal
+    def display(self):
+        print("Eployee Number:",self.eno)
+        print("Employee Name:",self.ename)
+        print("Employee esal: ",self.esal)
 class Test:
-    count=0
-    def __init__(self):
-        Test.count=Test.count+1
-    @classmethod
-    def noOfObjects(cls):
-        print("The number of object created for test class",cls.count)
-t1=Test()
-t2=Test()
-Test.noOfObjects()
-t3=Test()
-t4=Test()
-Test.noOfObjects()
-
+    def modify(emp):
+        emp.esal=emp.esal+1000
+        emp.display()
+e=Employee(100,'hitesh',60000)
+Test.modify(e)
 
 
 
