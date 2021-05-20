@@ -1,27 +1,23 @@
-class Test:
-    x=10
-    def __init__(self):
-        print(self.x)
-        print(Test.x)
+class Student:
+    def setName(self,name):
+        self.name=name
+    def getName(self):
+        return self.name
+    def setMarks(self,marks):
+        self.marks=marks
+    def getMarks(self):
+        return self.marks
 
-        
-    def m1(self):
-        print(self.x)
-        print(Test.x)
-    @classmethod
-    def m2(cls):
-        print(cls.x)
-        print(Test.x)
-    @staticmethod
-    def m3():
-        print(Test.x)
-t=Test()
-t.m1()
-t.m2()
-t.m3()
-print(Test.x)
-print(t.x)
-        
+n=int(input("enter number of students"))
+for i in range(n):
+    s=Student()
+    name=input("name of the student")
+    s.setName(name)
+    marks=int(input("enter marks"))
+    s.setMarks(marks)
+print("name of student",s.getName())
+print("marks are",s.getMarks())
+    
        
     
         
