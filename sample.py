@@ -1,18 +1,27 @@
-class Engine:
-    a=10
-    def __init__(self):
-        self.b=20
-    def m1(self):
-        print("Engine class members")
 class Car:
-    def __init__(self):
-        self.engine=Engine()
-    def m2(self):
-        print("Car using Engine class Functionalities")
-        print(self.engine.a)
-        print(self.engine.b)
-        self.engine.m1()
-c=Car()
-c.m2()
+    def __init__(self,name,model,color):
+        self.name=name
+        self.model=model
+        self.color=color
+    def getinfo(self):
+        print("Car name:{},Model:{} and color:{}".format(self.name,self.model,self.color))
+        
+        
+
+class Employee:
+    def __init__(self,ename,eno,car):
+        self.ename=ename
+        self.eno=eno
+        self.car=car
+    def empinfo(self):
+        print("Name of the Employee:",self.ename)
+        print("Employee Number:",self.eno)
+        print("Employee car info ")
+        self.car.getinfo()
+        
+    
+c=Car("Innova","2.5v","yellow")
+e=Employee("sivaram",101,c)
+e.empinfo()
 
 
