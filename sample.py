@@ -1,26 +1,16 @@
-class Student:
-    def setName(self,name):
-        self.name=name
-    def getName(self):
-        return self.name
-    def setMarks(self,marks):
-        self.marks=marks
-    def getMarks(self):
-        return self.marks
-
-n=int(input("enter number of students"))
-for i in range(n):
-    s=Student()
-    name=input("name of the student")
-    s.setName(name)
-    marks=int(input("enter marks"))
-    s.setMarks(marks)
-print("name of student",s.getName())
-print("marks are",s.getMarks())
-    
-       
-    
-        
+class Test:
+    count=0
+    def __init__(self):
+        Test.count=Test.count+1
+    @classmethod
+    def noOfObjects(cls):
+        print("The number of object created for test class",cls.count)
+t1=Test()
+t2=Test()
+Test.noOfObjects()
+t3=Test()
+t4=Test()
+Test.noOfObjects()
 
 
 
