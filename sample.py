@@ -12,20 +12,12 @@ class P:
     def m3():
         print("static method")
 class C(P):
-    def __init__(self):
-        self.c=40
-    def m1(self):
-        print(super().a)
-        #print(super().b)
-        print(self.c)
-    @classmethod
-    def m1(cls):
-        super(C,cls).__init__(cls)
-        super(C,cls).m1(cls)
-        super().m2()
-        super().m3()
-c=C()
-c.m1()
+    
+    @staticmethod
+    def m2():
+        
+        super(C,C).m3()
+C.m2()
     
 
         
