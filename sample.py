@@ -6,6 +6,7 @@ class P:
         print("Applamma")
 class C(P):
     def __init__(self):
+        super().__init__()
         print("child class Constructor")
     def marry(self):
         super().marry()
