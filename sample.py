@@ -1,19 +1,15 @@
-class Book:
-
-   def __init__(self,pages):
-        self.pages=pages
-   def __add__(self,other):
-        total=self.pages+other.pages
-        return Book(total)
-   def __str__(self):
-       return str(self.pages)
-b1=Book(100)
-b2=Book(200)
-b3=Book(200)
-bx=b1+b2+b3
-print("The total Number of pages",bx)
-    
-
+class Test:
+    def sum(self,a=None,b=None,c=None):
+        if a!=None and b!=None and c!=None:
+            print("The Sum of Three Numbers:",a+b+c)
+        elif a!=None and b!=None:
+            print("The Sum of 2number s",a+b)
+        else:
+            print("please provide 2 or 3 arguments")
+t=Test()
+t.sum(10,20)
+t.sum(10,20,30)
+t.sum(10)
         
 
 
