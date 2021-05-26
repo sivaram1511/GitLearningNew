@@ -1,2 +1,8 @@
-print("helloo")       
-
+f=open("abc.txt",'w')
+print("file name is:",f.name)
+print("file Mode",f.mode)
+print("is file Readble:",f.readable())
+print("is file writable",f.writable())
+print("is file close:",f.closed)
+f.close()
+print("is file is closed",f.closed)
