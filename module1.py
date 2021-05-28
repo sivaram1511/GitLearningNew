@@ -9,7 +9,7 @@ with open("emp.csv","w",newline='')as f:
         esal=input("enter employee salary:")
         eaddr=input("enter employee address:")
         w.writerow([eno,ename,esal,eaddr])
-print("Entered the csv file successfuly")        
+print("csv file successfuly")        
 
 
 
